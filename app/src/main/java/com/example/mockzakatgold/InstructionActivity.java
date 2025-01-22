@@ -25,7 +25,6 @@ public class InstructionActivity extends AppCompatActivity {
             return insets;
         });
 
-
         instructionToolbar=findViewById(R.id.tbInstruction);
         setSupportActionBar(instructionToolbar);
         getSupportActionBar().setTitle("Instruction");
@@ -33,7 +32,6 @@ public class InstructionActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
     }
-
 
     public boolean onOptionsItemSelected(MenuItem item){
         if(item.getItemId() == android.R.id.home){
