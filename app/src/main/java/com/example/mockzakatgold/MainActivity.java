@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         AppToolbar = findViewById(R.id.tbAppTitle);
         setSupportActionBar(AppToolbar);
-        getSupportActionBar().setTitle("Zakat for Gold Calculator");
     }
 
     @Override
